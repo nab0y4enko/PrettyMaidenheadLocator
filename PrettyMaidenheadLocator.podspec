@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
 
     s.author              = { "Oleksii Naboichenko" => "nab0y4enko@gmail.com" }
     s.social_media_url    = "https://twitter.com/nab0y4enko"
+    
+    s.platform        = :ios, "8.0"
 
     s.source          = { :git => "https://github.com/nab0y4enko/PrettyMaidenheadLocator.git", :tag => "#{s.version}" }
 
